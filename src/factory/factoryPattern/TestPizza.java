@@ -7,6 +7,7 @@ public class TestPizza {
 
     public static void main(String[] args) {
         PizzaStore nyStore = new NYPizzaStore();
+        nyStore.orderPizza("cheese");
         //Pizza pizza = nyStore.orderPizza("cheese");
     }
 }

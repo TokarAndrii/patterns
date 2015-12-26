@@ -3,7 +3,7 @@ package observer;
 /**
  * Created by root on 04.10.15.
  */
-public class WeatherStation {
+public class TestWeatherStation {
     public static void main(String[] args) {
         WeatherData weatherData = new WeatherData();
 

@@ -22,7 +22,7 @@ public class MyParser {
 
             String id = "";
             String id2 = "";
-            String id3 = "";
+            //String id3 = "";
 
 
             String value = "";
@@ -38,6 +38,8 @@ public class MyParser {
 
                 if (id.startsWith("\n")) {
                     id2 = id.substring(2, id.length());
+                    Integer integer = Integer.valueOf(id2);
+
                     System.out.println(id2);
                 } else {
                     int point = id.indexOf("");
@@ -46,12 +48,22 @@ public class MyParser {
                 }
 
 
+
                 value = sc.next();
 
                 if (value.endsWith("")) {
                     value2 = value.substring(0, value.length() - 1);
                     System.out.println(value2);
 
+                }
+
+                if (memory.size()==0){
+                    memory.put(id2,value2);
+                }
+                else {
+                    if(memory.containsKey(id2)){
+
+                    }
                 }
 
 

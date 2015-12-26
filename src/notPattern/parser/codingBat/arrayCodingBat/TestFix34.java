@@ -1,4 +1,4 @@
-package notPattern.parser.codingBat.fix34;
+package notPattern.parser.codingBat.arrayCodingBat;
 
 /**
  * Created by tokarAndrii on 21.11.15.

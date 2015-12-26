@@ -1,4 +1,4 @@
-package notPattern.parser.codingBat.Array2.only14.only14;
+package notPattern.parser.codingBat.arrayCodingBat;
 
 /**
  * Created by tokarAndrii on 21.11.15.
